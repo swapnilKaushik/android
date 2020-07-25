@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  CP : #008577  -->
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="whiteColor">#fff</color>
+    <color name="blackColor">#000</color>
+    <color name="hintColor">#818181</color>
+    <color name="btnColor">#673AB7</color>
+    <color name="btnRemoveColor">#FFFF5722</color>
+    <color name="greyColor">#928C8C</color>
+</resources>

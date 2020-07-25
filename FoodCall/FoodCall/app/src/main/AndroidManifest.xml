@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.swapnil.foodcall"
+        >
+    <!-- Below permissions allow app to use Internet -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_foodcall"
+            android:label="@string/app_name"
+            android:networkSecurityConfig="@xml/network_security_config"
+            android:resizeableActivity="false"
+            android:roundIcon="@mipmap/ic_foodcall_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            >
+        <activity android:name=".activity.activity.OrderPlacedActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|screenSize">
+        </activity>
+        <activity android:name=".activity.activity.CartActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|screenSize">
+        </activity>
+        <activity android:name=".activity.activity.MenuItemActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|screenSize">
+        </activity>
+        <activity android:name=".activity.activity.ResetPasswordActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|screenSize">
+        </activity>
+        <activity android:name=".activity.activity.ForgotPasswordActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|screenSize">
+        </activity>
+        <activity android:name=".activity.activity.SignupActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|screenSize">
+        </activity>
+        <activity android:name=".activity.activity.LoginActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|screenSize">
+        </activity>
+        <activity android:name=".activity.activity.SplashActivity"
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.activity.MainActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|screenSize">
+        </activity>
+    </application>
+
+</manifest>
